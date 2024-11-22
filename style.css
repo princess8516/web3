@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}html,body{
+    width: 100%;
+    height: 100%;
+}
+.main{
+width: 100%;
+height: 100vh;
+background-color: azure;
+
+
+
+}.page{
+    height: 80%;
+
+
+} 
+header{
+    height: 120px;
+   display: flex;
+    align-items: center;
+    padding-top: 3%;
+    justify-content: center;
+  
+}
+
+ul{
+    list-style: none;
+    justify-content: space-between;
+    display: flex;
+    width: 50%;
+    margin-left: 10%;
+   
+    font-size: 30px;
+    font-weight: 700;
+    position: relative;
+
+}li{
+  
+   cursor: pointer;
+   transition: 0.25s;
+}
+
+li::before{
+    content: "";
+    width: 0;
+    height: 1%;
+    background-color: rgb(142, 9, 9);
+      cursor: pointer;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+ 
+
+}
+li:hover::before{
+    width: 100%; 
+    
+}h1{
+  transform: translateX(-30px);
+    font-style: italic;
+}.page1{
+    height: 80%;
+    width: 100%;
+    background-color: #B2CEEA;
+    padding-left: 25%;
+}h4{
+    padding-left: 15%;
+    font-size: 40px;
+}.page1>h1{
+    padding-left: 5%;
+font-size: 70px;
+}button{
+  margin-top: 2%;
+  width: 20%;
+  height: 10%;
+  border-radius: 15px;
+  background-color: black;
+  color: aliceblue;
+}p{
+    width: 50%;
+}.page2{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    background-color: #8FA3FF;
+}.page2>h1{
+    width: 40%;
+    font-size: 70px;
+    padding-left: 15%;
+    padding-top: 5%;
+}.page2>p{
+    padding-left: 15%;
+    padding-top: 5%;
+    font-size: 30px;
+
+}.page2>button{
+    transform: translate(-300px ,210px);
+ 
+}.page3{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    background-color: #8FA3FF;
+    padding-left: 5%;
+    font-size: 20px;
+}.page3>.P{
+    padding-left: 15%;
+
+
+}.right{
+    width: 50%;
+ 
+
+}.right>img{
+   width: 60%;
+   transform: translate(750px,-420px);
+   border-radius: 15px;
+}
+.page4{
+    height: 80%;
+    width: 100%;
+    margin-top: -40%;
+    display: flex;
+    background-color: #8FA3FF;
+}.page4>h1{
+    width: 50%;
+    font-size: 40px;
+    padding-left: 15%;
+    padding-top: 15%;
+}.page4>p{
+    padding-left: 15%;
+    padding-top: 15%;
+    font-size: 20px;
+
+}.page4>button{
+    transform: translate(-300px ,310px);
+ 
+}.page5{
+    height: 100%;
+    width: 100%;
+   padding: 2% 5%;
+         
+    background-color:#b8bfde;
+}.page5>.p1{
+    height: 80%;
+    width: 90%;
+
+    background-color: #586bc1;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 4% 15%;
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+.page6{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background-color: rgb(225, 217, 232);
+}
+.page6>p{
+    padding-left: 15%;
+    padding-top: 5%;
+    font-size: 20px;
+
+}.page6>button{
+    transform: translate(-300px ,180px);
+ 
+}.page6>h1{
+    width: 50%;
+    font-size: 55px;
+    padding-left: 15%;
+    padding-top: 5%;
+}.page7{
+    height: 70%;
+    width: 100%;
+    margin-top: -10px;
+}.page7>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-top: -10px;
+}
+.page8{
+    height: 80%;
+    width: 100%;
+    background-color: black;
+  color: aliceblue;
+  display: flex;
+  gap: 18%;
+  padding-left: 10%;
+  padding-top: 3%;
+
+}
+.f1{
+    padding-top: 8%;
+    font-size: 150%;
+    height: 70%;width: 20%;
+    border-right: 1px solid aliceblue;
+ 
+}
+.f2{
+    height: 70%;width: 20%;
+    border-right: 1px solid aliceblue;
+ 
+}.f2>ul{
+   
+    display: block;
+    font-size: 80%;
+  
+    margin-top: 8%;
+    margin-left: 1px;
+}.f3>input{
+    background-color:black;
+    color: aliceblue;
+    border: 1px solid aliceblue;
+    font-size: 80%;
+   margin-top: 5%;
+   height: 10%;
+  width: 65%;
+}.page9{
+    height: 40%;
+    width: 100%;
+    background-color: black;
+    color: aliceblue;
+    font-size: 150%;
+    padding-left: 2%;
+    padding-right: 2%;
+}.page9>i{
+    font-size: 120%;
+    color: rgb(177, 169, 169);
+    padding-top: 2%;
+    padding-bottom: 2%;
+   
+}.page9>p{
+    font-size:65%;
+    font-family: sans-serif;
+}hr{
+    opacity: 0.6;
+}
